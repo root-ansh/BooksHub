@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BooksHub" parent="Theme.Material3.Light.NoActionBar" />
+
+    <!--   Removes splash screen  -->
+    <style name="Theme.RemoveSplashScreenTheme" parent="@style/Theme.BooksHub">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
