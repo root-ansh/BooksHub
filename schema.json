@@ -1,0 +1,63 @@
+{
+  "books": {
+    "b001": {
+      "author": "F. Scott Fitzgerald",
+      "desc": "A novel depicting the extravagant lifestyles of wealthy New Yorkers during the Jazz Age.",
+      "iconUrl": "https://picsum.photos/id/101/200",
+      "id": "b001",
+      "name": "The Great Gatsby",
+      "pageCount": "180"
+    }
+    /*,more books*/
+  },
+  "reviews": {
+    "r01": {
+      "bookId": "b001",
+      "bookImageUrl": "https://picsum.photos/id/101/200",
+      "creatorId": "9BoDF1EtrlMPCOF6I748bINGsFQ2",
+      "creatorImageUrl": "https://picsum.photos/id/121/200",
+      "creatorName": "Emma",
+      "desc": "The Great Gatsby is a captivating novel that vividly portrays the excesses and disillusionment of the Jazz Age. Fitzgerald's prose is elegant and evocative, drawing the reader into a world of wealth, love, and tragedy.",
+      "id": "r01",
+      "rating": "4.5",
+      "title": "The Great Gatsby"
+    }
+    /*,more reviews*/
+  },
+  "user_meta": {
+    "user_id1": {
+      "bookmarkedBookIds": [
+        "b009",
+        "b012",
+        "b006",
+        "b013",
+        "b015",
+        "b002"
+      ],
+      "myReviewsIds": [
+        "r01",
+        "r06",
+        "r11",
+        "r16"
+      ],
+      "name": "Emma",
+      "profilePic": "https://picsum.photos/id/126/111",
+      "purchasedBookIds": [
+        "b018",
+        "b005",
+        "b011",
+        "b020",
+        "b007",
+        "b004"
+      ],
+      "reviewedBookIds": [
+        "b001",
+        "b006",
+        "b011",
+        "b016"
+      ],
+      "userId": "user_id1"
+    }
+    /*,more users*/
+  }
+}

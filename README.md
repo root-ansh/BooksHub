@@ -4,6 +4,14 @@
 
 A simple PDF aggregating, viewing and reviewing app, powered by firebase
 
+> [!IMPORTANT]  
+> I will be soon removing access to actual firebase database from the console. Its obviously a demo project and I don't want to hit the thresholds. if you want to run this app locally, I have added a `schema.json` file. simply :
+> 1. create a firebase project. add and android app with package `io.github.curioustools.bookshub` 
+> 2. enable firebase authentication for username and password
+> 3. enable firabse realtime database in singapore region
+> 4. download the google services.json and replace the content of [app/google-services.json](google-services) with your file
+> 5. in realtime database, import the schema .json
+
 ## Features: 
 
 - 100% kotlin, almost 100% compose (need to add compose based navigation)
